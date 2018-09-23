@@ -23,5 +23,14 @@ public class MainController {
 		
         return quote;
 	}
+	
+	@RequestMapping(value = "/")
+	public String welcome() {
+		
+        return "Welcome, Please Hit https://myfirstws.herokuapp.com/api/getMovieData/{PageID} for proper response";
+	}
+	
+	
+	
 
 }

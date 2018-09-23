@@ -27,7 +27,7 @@ public class MainController {
 	@RequestMapping(value = "/")
 	public String welcome() {
 		
-        return "Welcome, Please Hit https://myfirstws.herokuapp.com/api/getMovieData/{PageID} for proper response";
+        return "Welcome Lajjo, Please Hit https://myfirstws.herokuapp.com/api/getMovieData/{PageID} for proper response. eg: https://myfirstws.herokuapp.com/api/getMovieData/1";
 	}
 	
 	
